@@ -6,6 +6,7 @@ const Welcome = () => {
   return <div className={css.container}>
     <div className={css.background}>
       <div className={css.text}>
+        <div className={css.circle}></div>
         <div className={css.main}>
           Svetlana,
           welcome to new you...
