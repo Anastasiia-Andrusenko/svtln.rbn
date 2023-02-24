@@ -14,7 +14,7 @@
 }
 
 .text {
-  max-width: 80vw;
+  max-width: 90vw;
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -24,6 +24,7 @@
 
 .btns {
   display: flex;
+  gap: 12px;
 }
 
 
@@ -33,14 +34,15 @@
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%);
   padding: 15px;
   color: rgba(255, 255, 255, 0.8);
-  font-weight: 300;
+  font-weight: 400;
   border-radius: 12px;
-  border: 1px solid rgb(145, 114, 0);
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .main {
-  margin-top: 46vh;
-
+  margin-top: 60vh;
+  font-size: 20px;
+  line-height: 1.5rem;
 }
 
 
@@ -49,19 +51,18 @@
   text-align: center;
   min-width: 70px;
   border-width: 2px;
-  transform: scale(0.8);
   transition: all linear 300ms;
 }
 
 .btn:hover {
   cursor: pointer;
-  transform: scale(1);
 }
 
 .poem {
-  margin-top: 26vh;
+  margin-top: 46vh;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 24px;
   line-height: 2.9rem;
+  padding: 30px;
 }

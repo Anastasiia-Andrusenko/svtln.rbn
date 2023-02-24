@@ -14,7 +14,7 @@
 }
 
 .text {
-  max-width: 80vw;
+  /* max-width: 80vw; */
   display: flex;
   gap: 20px;
   flex-direction: column;
@@ -24,27 +24,29 @@
 
 .main, .btn {
   width: fit-content;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
   padding: 15px;
   color: rgba(255, 255, 255, 0.8);
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 12px;
-  border: 1px solid rgb(145, 114, 0);
+  line-height: 1.5rem;
+  /* border: 1px solid rgb(145, 114, 0); */
 }
 
 .main {
-  margin-top: 46vh;
-  
+  margin-top: 2vh;
+  font-size: 20px;
 }
 
 
 .btn {
-  border-width: 2px;
-  transform: scale(0.8);
-  transition: all linear 300ms;
+  text-transform: uppercase;
+  /* border-width: 2px;
+  transition: all linear 300ms; */
+  margin-top: 60vh;
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .btn:hover {
   cursor: pointer;
-  transform: scale(1);
 }

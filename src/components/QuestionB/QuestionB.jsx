@@ -7,7 +7,7 @@ const QuestionB = () => {
     <div className={css.background}>
       <div className={css.text}>
         <div className={css.main}>
-          What did you feel the most this year?
+          What did you feel the most this year ?
         </div>
         <div className={css.btns}>
           <Link to='/question-c'><div className={css.btn}>Pain</div></Link>

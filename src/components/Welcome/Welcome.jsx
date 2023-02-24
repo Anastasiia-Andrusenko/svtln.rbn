@@ -7,7 +7,8 @@ const Welcome = () => {
     <div className={css.background}>
       <div className={css.text}>
         <div className={css.main}>
-          Svetla, welcome to new you...
+          Svetlana,
+          welcome to new you...
         </div>
         <Link to='/question-a'>
           <div className={css.btn}>Download</div>

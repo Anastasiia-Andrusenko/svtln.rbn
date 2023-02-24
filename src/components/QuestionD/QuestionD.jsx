@@ -7,7 +7,8 @@ const QuestionD = () => {
     <div className={css.background}>
       <div className={css.text}>
         <div className={css.main}>
-          Then turn off the silent mode. Make sure the sound is on
+          Then turn off the silent mode. <br />
+          Make sure the sound is on.
         </div>
         <div className={css.btns}>
           <Link to='/finish'><div className={css.btn}>done</div></Link>
