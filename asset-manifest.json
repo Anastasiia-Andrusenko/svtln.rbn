@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/svtln.rbn/static/css/main.7acaea2f.css",
+    "main.js": "/svtln.rbn/static/js/main.07d3183d.js",
+    "index.html": "/svtln.rbn/index.html",
+    "main.7acaea2f.css.map": "/svtln.rbn/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/svtln.rbn/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
