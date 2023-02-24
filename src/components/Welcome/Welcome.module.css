@@ -1,0 +1,50 @@
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  height: 100%;
+}
+.background {
+  background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 31%, rgba(0, 0, 0, 0.6) 42%, rgba(0, 0, 0, 0.2) 91%),
+  url(../../backgraund.jpg);
+  background-position: center;
+  background-size: cover;
+  min-width: 320px;
+  height: 100vh;
+}
+
+.text {
+  max-width: 80vw;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.main, .btn {
+  width: fit-content;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.55) 100%);
+  padding: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  border-radius: 12px;
+  border: 1px solid rgb(145, 114, 0);
+}
+
+.main {
+  margin-top: 46vh;
+  
+}
+
+
+.btn {
+  border-width: 2px;
+  transform: scale(0.8);
+  transition: all linear 300ms;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1);
+}
