@@ -15,7 +15,7 @@ const QuestionC = () => {
           Do you want us to take care of you ?
         </motion.div>
         <div className={css.btns}>
-          <Link to='/question-d'>
+          <Link to='/finish'>
             <motion.div
               initial={{ opacity: 0, scale: 0.1 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -24,7 +24,7 @@ const QuestionC = () => {
               Yes
             </motion.div>
           </Link>
-          <Link to='/question-d'>
+          <Link to='/finish'>
             <motion.div
               initial={{ opacity: 0, scale: 0.1 }}
               animate={{ opacity: 1, scale: 1 }}

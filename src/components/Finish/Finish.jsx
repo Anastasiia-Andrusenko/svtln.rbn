@@ -1,7 +1,6 @@
 import css from '../QuestionA/QuestionA.module.css';
 import { motion } from "framer-motion";
-// import ReactPlayer from 'react-player';
-import sound from '../../../src/music.mp3';
+
 
 const Finish = () => {
 
@@ -18,8 +17,6 @@ const Finish = () => {
           here is a box<br/>
           that waiting for you...<br/>
         </motion.div>
-        {/* <ReactPlayer playing url={[{src: {sound}, type: 'audio/mp3'}]} loop={true}/> */}
-        <audio src={sound} autoPlay loop></audio>
       </div>
     </div>
   </div>
